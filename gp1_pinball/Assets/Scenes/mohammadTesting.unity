@@ -268,7 +268,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 42148861}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6484432486d0980458453f62ae9dd314, type: 3}
+  m_Script: {fileID: 11500000, guid: f5620f5c30dac6a4693b03e6754813ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isHit: 0
@@ -289,6 +289,7 @@ GameObject:
   - component: {fileID: 289846632}
   - component: {fileID: 289846635}
   - component: {fileID: 289846634}
+  - component: {fileID: 289846636}
   m_Layer: 0
   m_Name: spring
   m_TagString: Untagged
@@ -360,7 +361,7 @@ Transform:
   m_GameObject: {fileID: 289846631}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.62, y: -2.79, z: 0}
+  m_LocalPosition: {x: 8.59, y: -2.78, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -439,6 +440,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &289846636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289846631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 360c74f285c738f458d9ba03ed9c1560, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &329613539
 GameObject:
   m_ObjectHideFlags: 0
